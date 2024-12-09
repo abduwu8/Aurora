@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { X, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import '../index.css';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 
 // TypeScript interface for API response
