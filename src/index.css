@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 @font-face {
     font-family: 'Fh Total';
     src: url('./fonts/FHTotalFine-Test-Thin-BF6514dd5b17c63.otf') format('opentype'); /* Adjust the path and format as needed */
