@@ -31,7 +31,7 @@ const AIIcebreakerGenerator: React.FC = () => {
   // Groq API configuration
   const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY;
   const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-
+  
   // Generate Icebreaker
   const generateIcebreaker = async () => {
     // Validate API key
