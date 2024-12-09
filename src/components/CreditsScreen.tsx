@@ -11,7 +11,7 @@ const CreditsScreen = () => {
   return (
     <>
         <motion.div 
-    className="h-[100px] w-[400px] bg-[#120904] flex flex-col items-center justify-center  absolute bottom-8 right-8"
+    className="h-[100px] w-[300px] bg-[#120904] flex flex-col items-center justify-center  absolute bottom-8 right-8"
     animate={{
         y: [0, 10, 0], // Vertical floating animation
         transition: {

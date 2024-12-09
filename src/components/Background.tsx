@@ -41,7 +41,7 @@ export const ExamplePage: React.FC = () => {
         className="absolute bottom-[-30px] left-[820px] transform -translate-x-1/2 z-10" // Center it and set z-index
       /> 
       <Starburst 
-        className="absolute top-[-650px] left-[1060px] transform -translate-x-1/2 z-100" // Center it and set z-index
+        className="absolute top-[-650px] left-[950px] transform -translate-x-1/2 z-100" // Center it and set z-index
       /> 
       <CreditsScreen />
     </GridBackground>
