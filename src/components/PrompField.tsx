@@ -116,7 +116,10 @@ const AIIcebreakerGenerator: React.FC = () => {
             setIcebreaker('');
             
           }}>
-            <X size={15} />
+            <X size={15} onClick={() => {
+              setIcebreaker('');
+            }}/>
+
             
           </div>
           <div className="absolute top-0 text-sm right-0 left-0 w-full h-[20px] bg-[#e8a179] flex items-center px-4" style={{ fontFamily: 'Fh Total' }}>
@@ -160,7 +163,7 @@ const AIIcebreakerGenerator: React.FC = () => {
         }}
       >
         {/* Top bar with close icon */}
-        <div className="absolute top-0 right-0 left-0 w-full h-[20px] bg-[#e8a179] flex items-center px-4">
+        <div className="absolute top-0 right-0 left-0 h-[20px] bg-[#e8a179] flex items-center px-4">
         </div>
 
         {/* Response Category Buttons */}
