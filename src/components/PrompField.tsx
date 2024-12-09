@@ -152,7 +152,7 @@ const AIIcebreakerGenerator: React.FC = () => {
       </motion.div>
 
       <motion.div 
-        className="h-[500px] w-[350px] bg-[#120904] flex flex-col items-center justify-center left-[200px] p-4 relative font-[Fh Total]"
+        className="h-[500px] w-[350px] bg-[#120904] flex flex-col items-center justify-center left-[0px] p-4 relative font-[Fh Total]"
         animate={{
           y: [0, 10, 0],
           transition: {
